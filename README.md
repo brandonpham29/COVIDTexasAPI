@@ -1,5 +1,6 @@
 # COVIDTexasAPI
-As a continuation of the COVIDTexas IOS app, I built an API that would return the data in the database that could be utilized by other applications.
+REST api that returns Texas total COVID-19 data or Texas County data based on query.
 
 # Link
-https://us-central1-firestoretest-3538c.cloudfunctions.net/app/api/read
+To see all Texas Counties: https://us-central1-firestoretest-3538c.cloudfunctions.net/app/api/read
+To see specific County: https://us-central1-firestoretest-3538c.cloudfunctions.net/app/api/read/${CountyQuery}
